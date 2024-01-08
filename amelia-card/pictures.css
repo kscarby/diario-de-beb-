@@ -1,0 +1,79 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 5px;
+}
+
+.boxPictures {
+    margin: auto;
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.boxImg {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    margin:0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 48vh;
+    width: 48vh;
+}
+
+.toolbarImg {
+    display: flex;
+    justify-content: flex-end;
+    height: 5vh;
+    width: 48vh;
+    background-color: #cccccc73;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+
+}
+
+.FavoriteIcon {
+    margin: 5px 5px;
+    border-style: none;
+
+}
+.NotFavoriteIcon {
+    margin: 5px 5px;
+    border-style: none;
+}
+
+.DeleteIcon {
+    margin: 5px 8px;
+    border-style: none;
+}
+
+.DeleteIcon:hover {
+    background-image: url(assets/icons/delete_black_24dp.svg);
+}
+
+.NotFavoriteIcon:hover {
+    background-image: url(assets/icons/favorite_black_24dp.svg);
+}
+
+@media (max-width: 600px) {
+
+    .boxPictures {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+
+    
+}
+
+

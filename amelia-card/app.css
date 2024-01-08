@@ -1,0 +1,76 @@
+html {
+    background-image: url(/amelia-card/assets/wallpaper/fox.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    height: 400px;
+    width: 800px;
+    align-items: center;
+}
+
+.newWelcome {
+    grid-row: 1;
+    margin-top: 40px;
+    font-size: 6rem;
+    text-align: center;
+    /* Agora, colocando um degradê */
+    /* Primeiro passo: definir um degradê como fundo */
+    background: linear-gradient(90deg, rgba(5,17,120,1) 46%, rgba(255,255,255,1) 70%);
+    
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+  
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+  
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: black;
+
+}
+
+.newImage {
+    margin: auto;
+    margin-top: 20px;
+    
+    width: 100px;
+    height: 80px;
+    font-size: 17px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 15px;
+    
+}
+
+.newCard {
+    margin: auto;
+    margin-top: 20px;
+    width: 100px;
+    height: 80px;
+    font-size: 17px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 15px;
+    
+}
+
+@media (max-width: 600px) {
+    .box {
+        
+        margin: auto;
+        height: auto;
+        width: auto;
+        align-items: center;
+    }
+    .newWelcome {
+        font-size: 4rem;
+    }
+  }

@@ -1,0 +1,217 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.startForm {
+    
+    margin: auto;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(27, 59, 102);
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 17px;
+    border-style: none;
+    border-radius: 20px;
+}
+
+
+.boxCards {
+
+    margin: auto;
+    height: auto;
+}
+.boxCards1 {
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.boxCards2 {
+
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cardForm {
+    margin: auto;
+    display: none;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgba(255, 255, 255);
+    width: 750px;
+    height: 230px;
+    border-radius: 20px;
+
+}
+
+.newItem {
+
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.newDate {
+    
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    width: auto;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.imagePreview {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+.cardItem {
+    margin: auto;
+    grid-gap: 10px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.788);
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+
+
+#imgg {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+
+.boxTabs {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab {
+    margin-top: 10px;
+    width: 65px;
+    height: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 15px;
+
+}
+
+.text {
+    margin: auto;
+    padding: 5px;
+    width: 740px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    background-color: transparent;
+}
+
+.dateText {
+    width: 120px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 17px;
+}
+
+.addPicture {
+
+    background-color: rgb(27, 59, 102);
+    color: white;
+    width: 142px;
+    height: 26px;
+    font-size: 17px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 3px;
+
+}
+
+.submit {
+    background-color: rgb(27, 59, 102);
+    color: white;
+    width: 70px;
+    height: 26px;
+    font-size: 17px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 3px;
+
+}
+
+.submit:hover {
+    background-color: rgb(80, 120, 172);
+}
+.del:hover {
+    background-color: tomato;
+}
+
+.tab:hover {
+    background-color: tomato;
+}
+
+@media (max-width: 775px) {
+
+    .boxCards2 {
+
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .cardForm {
+    font-size: 10px;
+    width: 15rem;
+    height: 230px;
+    }
+
+    .text {
+        width: 14rem;
+    }
+
+    .cardItem {
+        font-size: 15px;
+        margin: 20px;
+        padding: auto;
+    
+    }
+
+    
+}

@@ -1,0 +1,93 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 8px -4px #000000;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    
+}
+
+.cardBack {
+    margin-bottom: 430px;
+    margin-left: 5px;
+    margin-right: 58px;
+    position: relative;
+
+}
+
+.button-inicio {
+    background-image: url(../amelia-card/assets/icons/baseline_home_black_24dp.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 15px;
+    width: 36px;
+    height: 36px;
+    
+}
+
+.button-voltar {
+    background-image: url(../amelia-card/assets/icons/baseline_arrow_back_black_24dp.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 15px;
+    width: 36px;
+    height: 36px;
+    
+}
+.button-fotos {
+    background-image: url(../amelia-card/assets/icons/baseline_collections_black_24dp.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 15px;
+    width: 36px;
+    height: 36px;
+    
+}
+.button-cards {
+    background-image: url(../amelia-card/assets/icons/baseline_library_books_black_24dp.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 15px;
+    width: 36px;
+    height: 36px;
+    
+}
+
+.button-inicio:hover {
+    background-color: tomato;
+}
+.button-voltar:hover {
+    background-color: tomato;
+}
+.button-fotos:hover {
+    background-color: tomato;
+}
+.button-cards:hover {
+    background-color: tomato;
+}
+
